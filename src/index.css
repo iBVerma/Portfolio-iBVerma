@@ -1,0 +1,346 @@
+body {
+  background-color: #0F0E0E;
+  margin-left: auto;
+  padding-top:30px;
+  margin-right: auto;
+  /* padding-right: 100px; 
+  padding-left: 100px; */
+  -ms-overflow-style: none;
+
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@media (min-width: 600px){
+  body {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+}
+
+@media (max-width:600px){
+  body {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+
+::-webkit-scrollbar{
+  display: none;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.Nav-{
+  display: flex;
+}
+
+.logo{
+  height: 60px;
+  width: 60px;
+  border-radius: 60px;
+  transition: box-shadow 0.3s;
+  float:left;
+}
+
+.logo:hover{
+  box-shadow: 0 0 11px rgba(232, 190, 65, 0.87);
+}
+
+.nav-names{
+  display: flex;
+  gap: 10px;
+  margin-left:auto;
+}
+
+.nav-names>h2{
+  font-weight: 200;
+  font-size: 20px;
+  color: white;
+  /* font-family: ; */
+}
+
+.home{
+  margin-top: 50px;
+}
+
+.home-head{
+  color: white;
+  font-size: 50px;
+}
+
+.home > p{
+  margin-top: -10px;
+  color:rgb(121, 118, 118);
+  font-size: 20px;
+  margin-bottom: 100px;
+}
+
+
+.footer{
+  position: relative;
+  left: 0;
+  bottom: 0;
+  margin-top: 200px;
+  /* display: flex; */
+  /* justify-content: center;
+  align-items: center; */
+}
+
+.footer > h3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:rgb(121, 118, 118);
+  font-weight: 200;
+
+}
+
+.social{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.name-about{
+  text-decoration: none;
+}
+.name-about > h2{
+  font-weight: 200;
+  font-size: 20px;
+  color: white;
+  overflow: hidden;
+  --h: 1.2em;
+  text-shadow: 
+  0 var(--_t,var(--h)) white,
+  0 0 var(--_c,#000);
+  background: 
+  linear-gradient(rgba(214, 181, 80, 0.776) 0 0 )
+  bottom/100% var(--_d,0) no-repeat;
+  line-height: var(--h);
+  transition: 0.3s;
+}
+
+.name-about > h2:hover{
+  --_d: 100%;
+  --_t: 0;
+  --_c: white;
+}
+
+.page-main-head{
+  color: white;
+  font-size: 50px;
+  font-weight: 400;
+}
+
+.line{
+  margin-top: -10px;
+  /* border: none; */
+  border-color: #0F0E0E;
+  height: 1px;
+  background-color: rgb(121, 119, 119);
+  color: rgb(128, 125, 125);
+}
+
+.info-{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.info- > p{
+  margin-left: 40px;
+  color:rgb(121, 118, 118);
+  font-size: 20px;
+}
+
+.info-- >h1{
+  color: white;
+}
+
+.info-- >h3{
+  color:rgb(121, 118, 118);
+  margin-left: 5px;
+  margin-top: -10px;
+  font-weight: 300;
+}
+
+.info--logo{
+  margin-left: 0px;
+}
+
+.proj-click{
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.card-1{
+  box-shadow: white;
+  border-radius: 10px;
+  margin-right: 40px;
+}
+
+.card-heading{
+  color: white;
+}
+.card-para{
+  color:rgb(121, 118, 118);
+  font-size: 20px;
+}
+
+.card-link{
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.cp{
+  display: flex;
+  gap: 20px;
+  justify-content: left;
+  align-items: left;
+}
+
+.cp-img{
+  height: 50px;
+  margin-left: 80px;
+}
+
+.cf-text{
+  color: white;
+  text-decoration:none;
+}
+
+.logo1{
+  height: 30px;
+  margin-left: 5px;
+  transition: box-shadow 0.3s;
+  float:left;
+  border-radius: 10px;
+}
+
+
+.logo1:hover{
+  box-shadow: 0 0 11px rgba(109, 108, 103, 0.87);
+}
+
+.menubutton{
+  margin-left: auto;
+  background-color: #0F0E0E;
+  color: white;
+  border: none;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  font-weight: 200;
+}
+
+.menu--{
+  text-decoration: none;
+  list-style: none;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: white;
+  font-weight: 200;
+}
+
+
+.nav-drop{
+  list-style: none;
+  text-decoration: none;
+  color: white;
+}
+.cpname{
+  color: white;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.edu{
+  color: white;
+}
+
+.edusec{
+  display: flex;
+}
+
+.edusec > h1{
+  /* margin-top: -px; */
+  margin-right: 5px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.edusec > h2{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: 300;
+}
+.edu > h3{
+  margin-top: -20px;
+  margin-left: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: 200;
+}
+
+.contactmail{
+  display: flex;
+}
+.contactmail-{
+  margin-top: 12px;
+  margin-right: 5px;
+}
+
+.contactmail > h2{
+  color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: 200;
+}
+
+.contactmail-{
+  height: 40px;
+}
+
+.contactlinkedin{
+  height: 40px;
+  margin-top: 15px;
+}
+
+.linkedincontact{
+  display: flex;
+  color: white;
+}
+
+.linkedincontact > a{
+  /* margin-top: 30px; */
+  margin-right: 5px;
+}
+
+.linkedincontact > h2{
+  font-weight: 200;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.contact-id{
+  text-decoration: none;
+  color: white;
+  margin-top: 10px;
+}
+
+.contact-id > h2{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: 200;
+}
+
+.contact-id-2{
+  text-decoration: none;
+  color: white;
+}
+.contact-id-2 > h2{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: 200;
+}
+
